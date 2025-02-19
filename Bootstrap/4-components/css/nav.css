@@ -1,0 +1,11 @@
+.navbar-expand-lg .navbar-collapse {
+  margin-right: 200px;
+}
+.bg-success {
+  background-color: brown !important;
+}
+
+.navbar-expand-lg .nav-link:hover {
+  background-color: aliceblue;
+  color: brown;
+}

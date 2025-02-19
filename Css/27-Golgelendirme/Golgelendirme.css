@@ -1,0 +1,22 @@
+.yazi {
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 3px 5px 5px yellow;
+}
+
+.yazi2 {
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  text-shadow: 2px 3px 3px #000000, -2px -3px 3px #1900ff;
+}
+
+.kutu {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(70, 9, 9);
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 5px;
+}

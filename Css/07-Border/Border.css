@@ -1,0 +1,26 @@
+body h1 {
+  background-color: rgb(249, 255, 162);
+  border: 5px dashed rgb(126, 128, 5);
+  color: rgb(241, 241, 241);
+}
+
+/* Paragrafa yapılan border ın her kenarına farklı şekil vererek yapmış olduk..*/
+p {
+  border-left: 5px solid rgb(17, 16, 16);
+  border-right: 5px dotted rgb(18, 1, 37);
+  border-top: 3px dashed rgb(17, 16, 16);
+  border-bottom: 5px outset green;
+  color: rgb(197, 226, 116);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Not ; Aşağıya 2 yazım şekli verilecek.. İkisi de aynı işlemi yapar...
+
+Bu 1. yazım şeklidir ;
+border: 5px dashed rgb(7, 5, 128);
+
+Bu da 2. yazım şeklidir ;
+
+border-width: 5px;
+border-style: dashed;
+border-color: rgb(7, 5, 128);

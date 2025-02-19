@@ -1,0 +1,78 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="form.css">
+        <title>iş başvuru formu</title>
+    </head>
+
+    <body>
+        <h1 id="bbaslik">İŞ BAŞVURU FORMU</h1>
+        <form>
+            <div id="sayfa">
+                <article id="içerik"> <br><br>
+                    <h2 class="kbaslik">Genel bilgiler</h2>
+                    <table>
+                        <tr>
+                            <td><label class="label" for="Ad">Adınız * </label></td>
+                            <td><input class="text" type="text" required></td>
+                        </tr>
+                        <tr>
+                            <td><label class="label" for="Soyad">Soyadınız *</label></td>
+                            <td><input class="text" type="text" required></td>
+                        </tr>
+                        <tr>
+                            <td><label class="label" for="TC">TC *</label></td>
+                            <td><input class="text" type="number" maxlength="11" required></td>
+                        </tr>
+                    </table> <br><br><br>
+                    <h3> Cinsiyetiniz</h3> <input type="radio" name="cinsiyet" value="kız" required>Kız * <input type="radio" name="cinsiyet" value="erkek" required>Erkek * <br><br> <br><br> <label class="label" for="dogumgunu">Doğum gününüz *</label>
+                    <input
+                        type="date" value="dogumgunu" required> <br><br>
+                        <h2 class="kbaslik">İletişim bilgileri</h2> <label class="label" for="Tel">Telefon *</label> <input type="number" maxlength="11" required></input> <br><br><br> <label class="label" for="mail">E-mail *</label> <input type="email" required> <br><br>                        <label class="label" for="adres">Adres *</label> <textarea name="Adres" required></textarea> </article> <br><br>
+                <aside id="yanmenu">
+                    <h2 class="kbaslik">Diğer bilgiler</h2> <br>
+                    <h3>Ehliyetiniz var mı?</h3> <input type="radio" name="ehliyet" value="evet">Evet <input type="radio" name="ehliyet" value="hayır">Hayır <br><br><br> <label class="label" for="Öğrenim durumunuz" required>Öğrenim durumunuz *</label> <select> <option value="ilkokul">İlkokul</option> <option value="ilkokul">Ortaokul</option> <option value="ilkokul">Lise</option> <option value="ilkokul">Önlisans</option> <option selected value="ilkokul">Lisans</option> <option value="ilkokul">Yükseklisans</option> </select>                    <br><br><br><br><br><br><br>
+                    <table>
+                        <tr>
+                            <th>(SORULAR & SEVİYELER)</th>
+                            <th class="derece">Kötü</th>
+                            <th class="derece">Orta</th>
+                            <th class="derece">İyi</th>
+                            <th class="derece">Çok iyi</th>
+                        </tr>
+                        <tr>
+                            <td class="soru">İletişim kurma beceriniz nasıl?</td>
+                            <td><input class="radio" type="radio" name="derece"></td>
+                            <td><input class="radio" type="radio" name="derece"></td>
+                            <td><input class="radio" type="radio" name="derece"></td>
+                            <td><input class="radio" type="radio" name="derece"></td>
+                        </tr>
+                        <tr>
+                            <td class="soru">Takım çalışmalarınız nasıl?</td>
+                            <td><input class="radio" type="radio" name="derecee"></td>
+                            <td><input class="radio" type="radio" name="derecee"></td>
+                            <td><input class="radio" type="radio" name="derecee"></td>
+                            <td><input class="radio" type="radio" name="derecee"></td>
+                        </tr>
+                        <tr>
+                            <td class="soru">Bilgisayar bilginiz nasıl?</td>
+                            <td><input class="radio" type="radio" name="dereceee"></td>
+                            <td><input class="radio" type="radio" name="dereceee"></td>
+                            <td><input class="radio" type="radio" name="dereceee"></td>
+                            <td><input class="radio" type="radio" name="dereceee"></td>
+                        </tr>
+                        <tr>
+                            <td class="soru">İngilizce bilginiz hangi seviye? </td>
+                            <td><input class="radio" type="radio" name="dereceeee"></td>
+                            <td><input class="radio" type="radio" name="dereceeee"></td>
+                            <td><input class="radio" type="radio" name="dereceeee"></td>
+                            <td><input class="radio" type="radio" name="dereceeee"></td>
+                        </tr>
+                    </table> <br><br><br> <label class="label" for="adres">Eklemek istedikleriniz</label> <textarea name="eklenenler" cols="50px" rows="7px"></textarea> </aside> <br><br><br>
+                <center> <input id="basvur" type="submit" value="BAŞVUR"> <input id="iptal" type="reset" value="İPTAL ET"> </center>
+            </div>
+        </form>
+    </body>
+
+    </html>

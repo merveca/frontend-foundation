@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StyleUygulamalari</title>
+    <link rel="stylesheet" href="StyleUygulamalari.css" />
+    <style>
+      /* Burada kullanılan elementlere selector deniliyor...*/
+      .baslik1 {
+        color: blue;
+      }
+       /* div in dışında kalan h2 yi etkiler*/
+      h2 {
+        color: rgb(106, 189, 12);
+      }
+      /* Aşağıda bulunan h3 leri etkiler...*/
+      h3 {
+        color: rgb(161, 161, 206);
+      }
+      /* div in içindeki h2 yi etkiler*/
+      div h2 {
+        color: rgb(233, 22, 145);
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      /* Aşağıda bulunan içiçe div de ki h1 i etkiler...*/
+      div div div h1 {
+        color: rgb(9, 128, 207);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="baslik1" style="color: red">Benim rengim nedir?</h1>
+    <h1 class="baslik2">Bu renk ne olacak?</h1>
+
+    <div>
+      <h2>Çalısmadan Usanma</h2>
+    </div>
+
+    <h2>Çalısmadan Usanma</h2>
+
+    <h3>Başar gayrete Aşıktır</h3>
+
+    <div>
+      <div>
+        <div>
+          <h1>Merhaba</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

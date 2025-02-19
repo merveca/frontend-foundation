@@ -1,0 +1,27 @@
+.kutu1 {
+  background-color: deeppink;;
+  margin: 30px 10px 50px 40px;
+  color: rgb(252, 246, 234);
+}
+
+.kutu2 {
+  background-color: rgb(180, 95, 95);
+  margin: 40px;
+  font-size: xx-large;
+  color: rgb(240, 255, 240);
+}
+
+/* Yazımlarda şunlar aynı manaya gelir...
+
+ 1. yazım ; margin: 30px 10px 30px 10px;
+ 2. yazım ; margin: 30px 10px;
+ 
+ 3.yazım ;
+ margin-top: 30px;
+ margin-bottom: 10px;
+ margin-left: 30px;
+ margin-right: 10px;
+
+ 3 yazım şu manaya gelir 1=2=3
+
+ */

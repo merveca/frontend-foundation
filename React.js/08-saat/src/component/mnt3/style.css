@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "ds-digi";
+  src: url("./DS-DIGI.TTF");
+}
+.clock-container {
+  display: flex;
+  color: white;
+  font-family: "ds-digi";
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+}
+.galatasaray {
+  display: flex;
+  color: yellow;
+  font-family: "ds-digi";
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: red;
+}
+.fenerbahce {
+  display: flex;
+  color: yellow;
+  font-family: "ds-digi";
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: blueviolet;
+}
+​ .clock {
+  font-size: 32px;
+  margin-right: 10px;
+}
+.date {
+  font-size: 22px;
+}

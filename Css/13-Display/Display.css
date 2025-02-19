@@ -1,0 +1,21 @@
+.menu li {
+  display: inline-block;
+}
+/* display: inline-block; dediğimizde liste şeklinde
+üstüste olmaktan çıkıp yanyana
+düzenli bir şekle bürünüyor...*/
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px 10px;
+  background-color: rgb(210, 143, 255);
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: x-large;
+}
+
+.menu a:hover {
+  background-color: rgb(255, 91, 31);
+  color: white;
+}

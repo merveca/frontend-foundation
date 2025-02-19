@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+
+/*font-family: "Lobster Two", cursive;*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(192, 79, 85, 0.822);
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+}
+
+.container {
+  background-color: white;
+}
+
+header {
+  background-color: #f8f8ff;
+  padding: 10px;
+  overflow: auto;
+}
+
+/* owerfloat:auto; header daki yazılarla uyumlu halde 
+olmasını sağladı..*/
+
+.ust-sol {
+  float: left;
+  margin-left: 30px;
+}
+
+.ust-sag {
+  margin-right: 20px;
+  float: right;
+  width: 200px;
+  border-radius: 50%;
+}
+
+section {
+  padding: 5px 5px 5px 5px;
+}
+
+.sol-taraf {
+  float: left;
+  width: 65%;
+}
+
+.sag-taraf {
+  float: right;
+  width: 35%;
+}
+
+.baslik {
+  font-size: 1.4em;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 10px 0;
+}
+
+.satir {
+  padding-top: 15px;
+  clear: both;
+}
+
+.satır-sol {
+  float: left;
+  width: 30%;
+}
+
+.satir-sag {
+  float: right;
+  width: 70%;
+}

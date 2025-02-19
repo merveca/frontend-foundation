@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>embedded</title>
+  </head>
+   <!--<iframe>: Medya içeriklerini  gömmek için kullanılırx
+       <embed>: Medya içeriklerini gömmek için kullanılır
+       <object>: Medya içeriklerini gömmek için kullanılır <embed> etiketine göre daha fazla esneklik sağlar.
+
+     -->
+
+
+  <body>
+    <h1>Html de iframe nasıl kullanılır</h1>
+    <!--<iframe>: Satır İçi Çerçeve öğesi demektir-->
+    <p>
+      Bir HTML belgesinde farklı bir sayfa ya da site için pencere açmanıza
+      yaramaktadır. Pencere içerisinde boyutu belirttiğiniz boyutlarda olmak
+      üzere belirttiğiniz site görünecektir...
+    </p>
+    <!--
+      Src: iFrame çerçevesinin içerisine eklenecek olan web sitesinin linkinin yazıldığı parametredir. 
+      En önemli etikettir. Src etiketini boş bırakmanız halinde iFrame çerçevesi boş kalacaktır. 
+      Örnek kullanım:  
+      
+      Name: iFramelerin çerçevelerini sitenizde kullanırken her birine isim vermeniz, 
+      sitenizi düzenlemek istediğinizde bu elementlere daha rahat erişim sağlamanızı ve karıştırmamanızı sağlar. 
+      Çerçeve isimlerini girerken türkçe karakter ve boşluk kullanmamanız gerekmektedir. 
+      Name etiketini kullanmanız aynı zamanda, arama sayfalarında çıkmanız konusunda içereceği isimler sayesinde 
+      işinize yarayabilmektedir. Örnek kullanım:  
+      
+      Scrolling: Çerçevenin kaydırma özelliğine sahip olması konusunda karar vermenizi sağlar. 
+      Üç farklı seçeceği vardır bunlar; "auto", "yes" ve "no", auto seçeceğinde ihtiyaç duyulması dahilinde 
+      scrollbar ortaya çıkmaktadır. Örnek kullanım olarak:  
+      
+      Align: çerçevenin konumunun belirlenmesi için kullanılan etikettir. 
+      Çerçeveyi sola yaslamak için "left", sağa yaslamak için "right", yukarıda tutmak için “top”, 
+      alt tarafta tutmak için "bottom" ve ortalamak için "middle" şeklinde parametreler kullanılır. 
+      
+      Frameborder: Çerçevenin sınırlarının olup olmayacağının belirlenmesinde kullanılır.
+       
+      Allowfullscreen: Tam ekran özelliğinin aktif edilip edilmemesi konusunda işimize yarayan parametredir.
+
+    -->
+
+    <!--Aşağıya bir youtube videosu ekliyoruz-->
+    <!--frameborder="0" - Kenarlık kullanılmayacağını belirtir.-->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/EDK9KOfknTw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <!--Aşağıya bir harita ekliyoruz-->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.410321587164!2d28.993465814384425!3d41.03815522553659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7771cfcb82b%3A0x981822eb5607f94e!2zVmnFn25lemFkZSwgTWVjbGlzLWkgTWVidXNhbiBDZC4sIDM0MzU3IEJlxZ9pa3RhxZ8vxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1631978065966!5m2!1str!2str"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+  </body>
+</html>

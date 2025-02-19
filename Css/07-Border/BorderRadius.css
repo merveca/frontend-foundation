@@ -1,0 +1,35 @@
+h1 {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(204, 0, 0, 0.945);
+  color: rgb(14, 14, 4);
+  border-radius: 30px;
+  text-align: center;
+}
+
+h2 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(177, 177, 23);
+  color: rgb(14, 14, 4);
+  border-radius: 150px;
+  text-align-last: center;
+}
+
+h3 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(23, 103, 177);
+  color: rgb(14, 14, 4);
+  border-radius: 40px 100px 0px 150px;
+  text-align-last: center;
+}
+
+h4 {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(185, 16, 143);
+  color: rgb(14, 14, 4);
+  border-radius: 40px 150px;
+  text-align-last: center;
+}

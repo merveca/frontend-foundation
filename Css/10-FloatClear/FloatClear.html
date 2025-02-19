@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FloatClear</title>
+    <link rel="stylesheet" href="FloatClear.css" />
+  </head>
+  <!--
+  Float (Kaydırma)
+  
+  Katmanlarla çalışmak ve resim galerileri oluşturmak için HTML elementlerini 
+  sağa ve sola doğru kaydırmamız gerekebilir. 
+  İşte css kodu float bunu yapmamızı sağlıyor:
+
+  Elementler Nasıl Kaydırılır?
+  
+  Elementler yatay yönde sağa ve sola doğru kaydırılabilir. 
+  Yani aşağı doğru kaydırma söz konusu değil.
+
+  !!!! Dikkat edilmesi gereken önemli bir nokta var... **CLEAR**
+  float varken yazı veya resim eklemek problem olabiliyor. Düzen kaybolabiliyor..
+  Bundan kurtulmak içinde clear özelliği devreye giriyor...
+
+  ?? Kullanım şekli ;
+  ?? clear:both;
+  -->
+  <body>
+    <div class="kutu1">Kutu1</div>
+
+    <div class="kutu2">Kutu2</div>
+    <div class="kutu1">Kutu1</div>
+
+    <div class="kutu2">Kutu2</div>
+    <div class="kutu1">Kutu1</div>
+
+    <div class="kutu2">Kutu2</div>
+    <div class="kutu1">Kutu1</div>
+
+    <div class="kutu2">Kutu2</div>
+
+    <!--
+        Float devreye girmezse süzensizlik hakim olcağından düzenli olmasını 
+        istediğimiz yere clear ekliyoruz..
+    -->
+
+    <div class="temizle"></div>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aliquid
+      officia quasi suscipit? Animi voluptatem, repudiandae, dignissimos earum
+      rerum culpa voluptates eligendi molestiae deserunt, debitis assumenda.
+      Non, optio quis? Fugit! Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Quis minus beatae et odit iure itaque expedita doloribus
+      porro repellat, esse debitis, placeat saepe assumenda quia ut dicta magni
+      quibusdam corporis. Lorem ipsum dolor, sit amet consectetur adipisicing
+      elit. Voluptates quam fuga, labore odio assumenda a blanditiis neque?
+      Aspernatur assumenda dolores, enim, quisquam, sint asperiores totam nihil
+      distinctio animi debitis delectus?
+    </p>
+  </body>
+</html>

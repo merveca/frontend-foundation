@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantictags</title>
+  </head>
+  <body>
+    <!--
+
+    HTML5 ile gelen yeni semantic taglar bulunmaktadır.
+
+İçlerinde bulunan bilgi ve elemanlar ile ilgili bir anlama sahip olan,
+arama motorları için önemli olan taglara semantic taglar denir.
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<nav>
+<mark>
+<section>
+<summary>
+<time>
+
+<article>: Sayfadaki ana içeriği belirtmek için kullanılır.
+
+<section>: <article> ile benzer şekilde sayfada yer alan içeriğin ve 
+içeriğe ait bölümlerin belirtilmesinde kullanılır, ancak <article> 
+elementinden farklı olarak chapter, header, footer gibi farklı alanların 
+bölümlerini belirtmek için kullanılabilir.
+
+<header>: Sayfanın doğrudan bir bölümü olmayan header alanında logo, 
+içerik başlığı gibi giriş bilgilerinin yanı sıra navigasyon 
+linklerini (genellikle üst veya sayfanın üst bölümünde yer alan ana 
+menüde kullanılan) kapsamak için kullanılır.
+
+<footer>: Sayfanın footer alanını belirtmek için kullanılır. 
+Footer linkleri, iletişim bilgileri, copyright bilgileri gibi 
+linkler <footer> içerisinde belirtilebilir.
+
+<nav>: Sayfadaki navigasyon linklerini belirtir.
+
+<aside>: Sayfadaki ana içeriğe dahil olmayan içeriklerin belirtilmesinde 
+kullanılır.
+
+<details>: Kullanıcının göster ve gizle seçeneklerini kullanabileceği, 
+sayfada ek bilgilerin yer aldığı alanları belirtmek için kullanılır.
+
+<summary>: <details> etiketi için görünür bir başlık belirtmek için kullanılır.
+    -->
+ 
+    <div class="container">
+      <header>
+      <h1>Semantic Tags</h1>
+      </header>
+    <main>
+      <section>
+          <h2>Ana içerik</h2>
+          <p>Bu sayfanın ana içeriğidir.</p>
+      </section>
+
+      <aside>
+          <h3>Ana içerik bilgisi</h3>
+          <p>Bu, ana içerikle ilgili bazı ek bilgilerdir.</p>
+      </aside>
+
+      <details>
+          <summary>Daha fazla detay</summary>
+          <p>Burada gösterilebilecek veya gizlenebilecek bazı ek bilgiler verilmiştir.</p>
+      </details>
+    </main>
+    <footer>
+      <p>&copy; 2024 X Şirketi. Her hakkı saklıdır.</p>
+    </footer>
+    </div>
+  </body>
+</html>

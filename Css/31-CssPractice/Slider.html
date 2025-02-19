@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Image</title>
+    <link rel="stylesheet" href="assets/css/11.css" />
+    <style>
+      .arkaplan {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-size: 30px;
+        width: 100%;
+        height: 300px;
+        background-image: url(../day10_CssCalismalari/assets/img/Gunesindogusu.jpg);
+        background-size: cover;
+        border: 2px solid black;
+        background-position: center center;
+        padding-top: 150px;
+      }
+
+      .arkaplan p {
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+      }
+      .kutu1 {
+        width: 100px;
+        height: 10px;
+        float: center;
+        margin-top: 30px;
+        background-color: rgb(22, 22, 17);
+      }
+      .esnek-kutum {
+        padding: center;
+        margin: center;
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+      }
+
+      .zekicannet-kutum-bir {
+        flex: 1;
+        background: linear-gradient(#d74177, #ffe98a);
+        max-width: 23%;
+        padding: 5px;
+        height: 2px;
+        margin: 1%;
+        flex-shrink: 1;
+        flex-basis: 23%;
+        box-sizing: border-box;
+      }
+      .zekicannet-kutum-iki {
+        flex: 1;
+        background: linear-gradient(#fb872b, #d9e021);
+        max-width: 23%;
+        padding: 5px;
+        height: 2px;
+        margin: 1%;
+        flex-shrink: 1;
+        flex-basis: 23%;
+        box-sizing: border-box;
+      }
+      .zekicannet-kutum-uc {
+        flex: 1;
+        background: linear-gradient(#fb872b, #d9e021);
+        max-width: 23%;
+        padding: 5px;
+        height: 2px;
+        margin: 1%;
+        flex-shrink: 1;
+        flex-basis: 23%;
+        box-sizing: border-box;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="arkaplan">
+      <b>Güneşin Doğup Battığı Her Yere Ulaşmak Ümidiyle</b>
+      <p>İnanmak başarmanın yarısıdır...</p>
+    </div>
+    <ul class="esnek-kutum">
+      <li class="zekicannet-kutum-bir"></li>
+      <li class="zekicannet-kutum-iki"></li>
+      <li class="zekicannet-kutum-uc"></li>
+    </ul>
+  </body>
+</html>

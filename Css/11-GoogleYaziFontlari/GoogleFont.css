@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Cherish&family=Josefin+Sans:ital@1&family=Titillium+Web:wght@200;400&display=swap");
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+}
+
+.yazi {
+  font-family: "Cherish", cursive;
+  font-size: 50px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form1</title>
+  </head>
+  <body>
+    <!--Form oluşturmak için form tag ı açılıp kapanmalı-->
+    <!--method="post" - Hangi yöntemle formun teslim edileceği. 
+        POST olursa bilgiler görünmez, 
+        GET olursa form nesnelerine göre dinamik şekilde adreste görünür.-->
+    <!--
+    form ; Tüm form elemanlarını içinde barındıran taşıyıcıdır.
+    input ; Kullanıcıdan bilgi almak için kullanılan form elemanlarının genel ismi
+    label ; Kullanıcıya form elemanı ile ilgili bilgi vermek için kullanılan eleman
+    -->
+    <!--placeholder kutunun içine ne yazılacağını silik bir şekilde belirtir-->
+
+    <!--
+<input type="text"> Yazı yazmamızı sağlar... En çok kullanılanlardandır...
+<input type="button"> Tıklama butonu oluşturur...
+<input type="checkbox"> İşaretleme seceneği oluşturur...
+<input type="date"> Tarih ekleme
+<input type="datetime-local"> Tarih ve zamanı yanyana ekleme
+<input type="email"> email ekleme @ ifadesi muhakkak olmalı
+<input type="file"> dosya ekleme
+<input type="hidden"> Bilgi gizleme
+<input type="image"> Resim ekleme
+<input type="month"> Ay ekleme
+<input type="number"> Numara girme
+<input type="password"> Passwordu güvenli şekilde yazar ********
+<input type="radio"> Tekli seçeneklerde kullanılır...Cinsiyet
+<input type="range"> Aralık koymaya yarar...(Çok Orjinal()
+<input type="reset"> Girilen form bilgilerini sıfırlar...
+<input type="search"> Arama butonu oluşturur...
+<input type="submit"> Gönder butonunu oluşturur...
+<input type="tel"> Tel no ekler
+<input type="time"> Zaman ekleme
+<input type="url"> Uzantı ekleme
+<input type="week"> Hafta ekleme
+    -->
+
+    <p><b>Birinci Form Şekli</p></b>
+    <p>Kullanıcı Adı-Şifre-Gönder</p>
+    <form name="form" action="index.asp" method="post">
+      <!--form elementi action ve method attribute ile birlikte olmalıdır..
+      Bunnlar yardımıyla bilgileri nereye  ve nasıl göndereceğimizi belirler...
+      action="index.asp" nereye gönderecekse dosya adresi yazdırır...
+      method="post" gizli olmasını sağlar...-->
+      <b>Kullanıcı Adı:</b><br />
+      <input
+        type="text"
+        name="isim"
+        size="24"
+        placeholder="Kullanıcı Adı"
+      /><br /><br />
+      <b>Şifre:</b><br />
+      <input
+        type="password"
+        name="sifre"
+        size="16"
+        placeholder="Şifre"
+      /><br /><br />
+      <input type="submit" name="gonder" value="Gönder" /><br /><br />
+    </form>
+
+    <hr />
+
+    <p><b>İkinci Form Şekli</p></b>
+    <p>Adres veye Yorum Kutusu Oluşturma</p>
+    <!--cols="sutun sayısı" Sütun sayısı.
+    rows="satır sayısı" Satır sayısı.--> 
+    <!--textarea : Çok uzun miktarda yazı girilmesini sağlayan form elemanı 
+        textarea dır. Geçerli değer textarea tagları arasına yazılabilir.-->
+    <form name="form" action="index.asp" method="post">
+      <b>Yorumunuzu veya Adresinizi Yazın:</b><br />
+      <textarea cols="40" rows="4">Yorum veya Adres Kutusu</textarea
+      ><br /><br />
+    </form>
+
+    <hr />
+
+    <p><b>Üçüncü Form Şekli</p></b>
+    <p>Tek Secenek Tıklanarak Cinsiyet Seçeneği Oluşturma</p>
+    <!--<input> komutu ile tür bölümüne radio yazarak 
+        çoktan seçmeli bir form nesnesi oluşturulabilir:-->
+    <input type="radio" name="cinsiyet" value="erkek" /> Erkek <br />
+    <input type="radio" name="cinsiyet" value="kiz" /> Kız <br />
+    
+    <hr />
+
+    <p><b>Dördüncü Form Şekli</p></b>
+    <p>Birden Çok Secenek Tıklanarak Link Oluşturma</p>
+
+    <label>Hobileriniz</label><br>
+
+    <input type="checkbox" name="futbol" id="futbol" value="Futbol">
+    <label for="futbol">Futbol</label><br>
+
+    <input type="checkbox" name="basketbol" id="basketbol" value="basketbol">
+    <label for="basketbol">Basketbol</label><br>
+
+
+    <input type="checkbox" name="voleybol" id="voleybol" value="voleybol">
+    <label for="voleybol">Voleybol</label> </td>
+        
+    <hr />
+
+    <p><b>Beşinci Form Şekli</p></b>
+    <p>Birden Çok Secenek Arasından Seçim Yapma</p>
+    <!--Seçim kutusu eklemenin diğer bir yolu da <select> kodudur.-->
+    <select name="renk">
+        <option value="beyaz">Beyaz</option>
+        <option value="kirmizi">Kırmızı</option>
+        <option value="siyah">Siyah</option>
+     </select>
+        
+     <hr />
+
+     <p><b>Altıncı Form Şekli</p></b>
+     <p>E-posta Adresi oluşturma</p>
+     <!--required : İnputu zorunl hale getirir. Boş geçilemez
+     maxlength : En çok girilmesi gereken karakter sayısını beirler
+     minlength : En az girilmesi gereken karakter sayısını beirler
+     max : Girilmesi gereken en büyük değeri belirler
+     min : Girilmesi gereken en küçük değeri belirler-->
+
+     <label for="Eposta">Eposta</label> </td></label>
+     <input type="text" name="Eposta" id="Eposta" placeholder="E-postanızı giriniz..." 
+         minlength="11" maxlength="40" required>
+        
+         <hr />
+
+     <p><b>Yedinci Form Şekli</p></b>
+     <p>Doğum Tarihi Linki</p>  
+     <label for="dogum">Doğum Tarihi</label>
+     <input type="date" name="dogum" id="dogum" required>
+
+  </body>
+</html>

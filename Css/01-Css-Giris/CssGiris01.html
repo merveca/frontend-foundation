@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CssGiris01</title>
+    <!-- color: rgb(255, 0, 155); yazı harflerini renklendirme yapmak için kullanıyoruz-->
+    <!-- text-align: left;yazımızı sola yaslama yapmak için kullanıyoruz-->
+    <!-- background-color: chartreuse;yazımızın arka fonuna renkledirme yapmak için kullanıyoruz-->
+    <!-- font-weight: bold; yazımızı bold yapmak için kullanıyoruz-->
+    <!-- font-style: italic; yazımızı italik yapmak için kullanıyoruz-->
+
+    <style>
+      .urun-aciklama {
+        color: rgb(0, 0, 0);
+        text-align: left;
+        background-color: rgb(255, 196, 0);
+        font-weight: bold;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Ayrı ayrı da kullanılma şekilleri olabilir...-->
+    <p class="urun-aciklama">Bu ilk css çalışmam</p>
+    <p>Bu ikinci satır</p>
+    <p class="urun-aciklama">Bu üçüncü satır</p>
+    <p style="background-color: #fad712">Merhaba</p>
+    <p
+      style="
+        color: #5f5f5a;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 24px;
+      "
+    >
+      Naber
+    </p>
+    <p style="background-color: #9b6928; color: #e8ebfa; font-style: italic">
+      Merhaba Hoşgeldiniz
+    </p>
+    <div style="text-align: center">Sitemize Hoşgeldiniz</div>
+  </body>
+</html>
+
+<!-- 
+  Css de işlem önceliği sırası çok önemlidir...
+  Sıralama aşağıdaki ibi olacaktır...
+  Yani siz bir yere dizayn vermek istiyorsanız bunları gözönüne almalısınız...
+
+!1-"!important" ile bir css kuralı her zaman önceliğe sahiptir.
+2-style
+3-id
+4-class
+5-element
+-->

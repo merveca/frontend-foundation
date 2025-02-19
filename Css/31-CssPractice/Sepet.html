@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sepet</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      .urun_listesi {
+        width: 600px;
+        background-color: rgb(196, 194, 194);
+      }
+      thead {
+            background-color: rgb(49, 46, 46);
+            color: rgb(255, 255, 255);
+      }
+        
+      .koyu {
+            background-color: rgb(136, 125, 125);
+      }
+      .acik {
+            background-color: rgb(189, 183, 183);
+        }
+    </style>
+  </head>
+  <body>
+    <table class="urun_listesi">
+      <thead>
+        <tr class="koyu">
+          <th>Ürün Kodu</th>
+          <th>Ürün Adı</th>
+          <th>Miktar</th>
+          <th>Birim Fiyat</th>
+          <th>Ara Toplam</th>
+          <th>İşlemler</th>
+      </tr>
+      </thead>
+      <tr class="acik">
+        <th>1234123</th>
+        <th>Notebook</th>
+        <th>1</th>
+        <th>5400$</th>
+        <th>5400$</th>
+        <th class="menu">
+            <button class="btn">
+                    <i class="fa-solid fa fa-sliders"></i>
+                </button>
+            <button class="btn">
+                    <i class="fa-solid fa-recycle"></i>
+                </button>
+        </th>
+      </tr>
+
+      <tr class="koyu">
+        <th>14234</th>
+            <th>Klavye</th>
+            <th>2</th>
+            <th>80$</th>
+            <th>160</th>
+            <th class="menu">
+                <button class="btn">
+                        <i class="fa-solid fa fa-sliders"></i>
+                    </button>
+                <button class="btn">
+                        <i class="fa-solid fa-recycle"></i>
+                    </button>
+            </th>
+      </tr>
+      <tr class="acik">
+        <th>1435134</th>
+        <th>Monitor</th>
+        <th>1</th>
+        <th>700$</th>
+        <th>700$</th>
+        <th class="menu">
+            <button class="btn">
+                    <i class="fa-solid fa fa-sliders"></i>
+                </button>
+            <button class="btn">
+                    <i class="fa-solid fa-recycle"></i>
+                </button>
+        </th>
+      </tr>
+      <tr class="koyu">
+        <th>11435</th>
+        <th>Mouse</th>
+        <th>2</th>
+        <th>50$</th>
+        <th>100$</th>
+        <th class="menu">
+            <button class="btn">
+                    <i class="fa-solid fa fa-sliders"></i>
+                </button>
+            <button class="btn">
+                    <i class="fa-solid fa-recycle"></i>
+                </button>
+        </th>
+    </tr>
+    <tr class="acik">
+
+      <th>1435134</th>
+      <th>Play Station</th>
+      <th>1</th>
+      <th>2500$</th>
+      <th>2500$</th>
+      <th class="menu">
+          <button class="btn">
+                  <i class="fa-solid fa fa-sliders"></i>
+              </button>
+          <button class="btn">
+                  <i class="fa-solid fa-recycle"></i>
+              </button>
+      </th>
+    </tr>
+    <tr class="koyu">
+        <th>34511</th>
+        <th>Usb Bellek</th>
+        <th>3</th>
+        <th>120$</th>
+        <th>360$</th>
+        <th class="menu">
+            <button class="btn">
+                <i class="fa-solid fa fa-sliders"></i>
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-recycle"></i>
+            </button>
+        </th>
+    </tr>
+    <tfoot>
+         <tr>
+            <th colspan="4">TOPLAM</th>
+            <th>9200$</th>
+            <th></th>
+         </tr>
+         <tr>
+         <td>
+            <button>
+              <i class="fas fa-cart-arrow-down"></i>Alışverişe Devam
+            </button>
+         </td>
+        <td>
+          <button><i class="fab fa-cc-visa"></i>Ödemeye Geç</button>
+        </td>
+        </tr>
+    </tfoot>
+    </table>
+  </body>
+</html>

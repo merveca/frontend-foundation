@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(226, 226, 240);
+  width: 700px;
+  height: 300px;
+  flex-wrap: wrap;
+}
+.container div {
+  width: 140px;
+  height: 140px;
+  background-color:  #ff1911;
+  border: 1px solid;
+}

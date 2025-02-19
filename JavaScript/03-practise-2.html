@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /* 
+      var sayi1 = prompt("1.sayıyı giriniz");
+      var sayi2 = prompt("2.sayıyı giriniz");
+      var ort = (sayi1 + sayi2)/2; 
+      alert(ort);
+
+      Çıktı Sonucu : Yazılan iki sayı birbirine eklenmiş olur.Sayılar toplanamaz concatenation yapılır. 
+      Çünkü Prompt ile kullanıcıdan birşey aldığımızda bu aldığımız şey sayı olsa bile kullanıcı onu string (metin) olarak algılar. 
+      İki metini arasına artı katarak işleme katarsakta metinler birbirine eklenir. 
+      Bu durum az önceki sayi practise de olduğu gibi bu yüzden toplama işleminde prompt tek başına yazılmaz. 
+        */
+      var sayi1 = Number(prompt("1.sayıyı giriniz"));
+      var sayi2 = Number(prompt("2.sayıyı giriniz"));
+
+      x = 3;
+      var x = 3;
+
+      // Bu satırda ortalama hesaplanır
+      var ort = (sayi1 + sayi2) / 2;
+
+      alert(ort);
+      console.log(ort); //asdasd //kodu console'de göstermek istersek yazarız.
+
+      /* 
+      Not: Sadece toplama da böyle bir problemi var.Çünkü toplama aynı zamanda iki string'i birbirine eklemek içinde kullanıldığı için orada string kabul ediyor ve birbirine ekliyor.
+      Ama bölmede bir alternatif yoktur.String bölme,çarpma ve çıkartma olmadığı için sıkıntı yoktur.
+      JavaScripte değişken tanımlamak zorunda değiliz.Fakat tanımlarsak iyi olur yoksa işler bazen karışıyor.
+      Not: x = 3;
+      var x = 3;  Bu ikisini yazmakla arasında bir fark var mı?
+      İki arasında fark yok ikisi de kullanılır.x=3 yazınca javascrit var önüne otomatikmen yazar.
+      Fakat tavsiye edilen bir yöntem değildir. Değişken tanımlamak lazım Artık var'dan yavaş yavaş vazgeçilip let kullanılır.
+      Fakat let'in şöyle bir problemi var eski tip tarayıcılarda let'i anlamıyor tarayıcalar.
+      Çünkü bu bizim yazdığımız kodları yorumlayan tarayıcılardır.Let javascript'in yeni versionlarında var. 
+      */
+    </script>
+  </body>
+</html>

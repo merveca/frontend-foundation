@@ -1,0 +1,25 @@
+.kutu1 {
+  background-color: rgb(131, 16, 238);
+  padding: 30px 10px 50px 40px;
+  color: white;
+}
+
+.kutu2 {
+  background-color: rgb(102, 201, 3);
+  padding: 40px;
+  font-size: xx-large;
+}
+
+/* Yazımlarda şunlar aynı manaya gelir...
+  
+  
+   padding: 30px 10px 30px 10px;
+   padding: 30px 10px;
+  
+   padding-top: 30px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   padding-right: 10px;
+   
+   3 yazım şu manaya gelir 1=2=3
+   */

@@ -1,0 +1,43 @@
+body {
+  background-image: url("right-arrow.png");
+  font-size: 3em;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.arkaplan {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(135deg, red, pink, black, yellow, blue);
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  color: white;
+  
+}
+
+.arkaplan2 {
+  width: 100%;
+  height: 150px;
+  background-image: url("deniz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid red;
+  color: white;
+}
+
+.arkaplan3 {
+  width: 100%;
+  height: 200px;
+  background-image: url("more-leaves.png");
+  background-position: center center;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+/*
+renklerin ortadan kenarlara doğru değişmesi için ise ;
+
+! background-image: radial-gradient(135deg, red, white, black, yellow, blue);
+*/

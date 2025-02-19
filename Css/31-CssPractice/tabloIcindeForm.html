@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabloForm</title>
+    <style>
+        table {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        
+        tr,
+        td {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <tr>
+            <td>Adı</td>
+            <td><input type="text"></td>
+            <td></td>
+            <td rowspan="2">Hobiler</td>
+            <td rowspan="2">
+                <input type="checkbox" , name="futbol" , id="futbol" ,value="futbol">
+                <label for="futbol">Futbol</label>
+                <br>
+                <input type="checkbox" , name="voleybol" , id="voleybol" ,value="voleybol">
+                <label for="voleybol">Voleybol</label>
+                <br><input type="checkbox" , name="basketbol" , id="basketbol" ,value="basketbol">
+                <label for="basketbol">Basketbol</label>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Soyadı</td>
+            <td><input type="text"></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>Cinsiyeti</td>
+            <td><input type="radio" , name="cinsiyet" , id="bay" , value="bay">
+                <label for="bay">Bay</label><input type="radio" , name="cinsiyet" , id="bayan" , value="bayan">
+                <label for="bayan">Bayan</label>
+            </td>
+            <td></td>
+            <td>Profil Fotoğrafı</td>
+            <td><input type="file">
+                <label for="browse">Browse</label>
+            </td>
+        </tr>
+        <tr>
+            <td>İlçe</td>
+            <td>
+                <label for="ilce"></label>
+                <select name="ilce" id="ilce">
+                        <option value="1">Karaisalı</option>
+                        <option value="2">Kadirli</option>
+                        <option value="3">Kozan</option>
+                        <option value="4">Ceyhan</option>
+
+                    </select>
+            </td>
+            <td></td>
+            <td>Doğum Tarihi</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td>Eposta</td>
+            <td><input type="text"></td>
+            <td></td>
+            <td rowspan="3">Adres</td>
+            <td rowspan="3"></td>
+
+        </tr>
+        <tr>
+            <td>Kişisel Site</td>
+            <td><input type="text"></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>Telefon</td>
+            <td><input type="text"></td>
+
+        </tr>
+        <tr>
+            <td rowspan="7"><input type="button" , value="Kayıt Ol">
+
+            </td>
+
+        </tr>
+    </table>
+</body>
+
+</html>

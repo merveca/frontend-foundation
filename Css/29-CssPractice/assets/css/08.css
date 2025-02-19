@@ -1,0 +1,21 @@
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  background-color: rgb(255, 173, 143);
+  border-radius: 10px;
+  box-shadow: inset;
+}
+
+.menu a:hover {
+  background-color: rgb(255, 91, 31);
+  color: white;
+}

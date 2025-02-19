@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container div {
+  width: 160px;
+  height: 160px;
+  background-color: #135aaa;
+  padding: 32px;
+  border: 1px solid;
+}

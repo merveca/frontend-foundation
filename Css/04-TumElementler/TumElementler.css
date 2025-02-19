@@ -1,0 +1,10 @@
+/*
+Tüm elementleri kapsayan işaret * işaretidir...
+*/
+
+* {
+  font-size: large;
+  color: rgb(236, 2, 2);
+  background-color: darkgrey;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

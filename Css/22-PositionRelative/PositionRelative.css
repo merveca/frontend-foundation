@@ -1,0 +1,17 @@
+.kutu1 {
+  width: 70px;
+  height: 70px;
+  background-color: blueviolet;
+  top: 100px;
+  left: 300px;
+  position: relative;
+  z-index: 2;
+}
+
+.kutu2 {
+  width: 70px;
+  height: 70px;
+  background-color: goldenrod;
+  position: relative;
+  z-index: 11;
+}

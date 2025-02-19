@@ -1,0 +1,17 @@
+// Import Bootstrap's core variables and mixins
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Modify default variables
+$primary: #ff5722; // Change primary color to orange
+$font-family-base: "Arial, sans-serif"; // Change base font
+
+// Import the rest of Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles
+.custom-card {
+  background-color: $primary;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}

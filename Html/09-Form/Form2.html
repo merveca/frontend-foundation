@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form2</title>
+    <style>
+        .tablo {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>KAYIT FORMU</h1>
+
+    <form action="server/kayit.php" method="POST">
+
+        <input type="hidden" name="id" value="135489745">
+
+        <table border="1" class="tablo">
+
+            <tr>
+                <td> <label for="ad">Adınız</label> </td>
+                <td> <input id="ad" name="ad" type="text" required minlength="1" maxlength="25"
+                        placeholder="Adınızı giriniz..." /> </td>
+               
+                <td> <label>Hobileriniz</label> </td>
+               
+                <td> <input type="checkbox" name="futbol" id="futbol" value="Futbol">
+                    <label for="futbol">Futbol</label><br>
+
+
+                    <input type="checkbox" name="basketbol" id="basketbol" value="basketbol">
+                    <label for="basketbol">Basketbol</label><br>
+
+
+                    <input type="checkbox" name="voleybol" id="voleybol" value="voleybol">
+                    <label for="voleybol">Voleybol</label> </td>
+
+            </tr>
+
+            <tr>
+                <td><label for="soyad">Soyadınız</label></td>
+                <td><input id="soyad" type="text" name="soyad" required minlength="1" maxlength="25"
+                        placeholder="Soyadınızı giriniz..." /></td>
+
+
+            </tr>
+
+            <tr>
+                <td><label for="Cinsiyet">Cinsiyet</label></td>
+                <td><input type="radio" name="Cinsiyet" id="erkek" value="erkek" />
+                    <label for="erkek">Erkek</label>
+
+                    <input type="radio" name="Cinsiyet" id="kadin" value="kadin" />
+                    <label for="kadin">Kadin</label></td>
+                    
+                <td><label for="avatar">Profil Fotografi</label></td>
+                <td><input type="file" name="avatar" id="avatar"></td>
+
+            </tr>
+
+            <tr>
+                <td><label for="ilce">İlçe</label></td>
+                <td><select name="ilce" id="ilce">
+                        <option value="1">Amasra</option>
+                        <option value="2">Aslantepe</option>
+                        <option value="3">Narman</option>
+                        <option value="4">Eyüp</option>
+                    </select></td>
+                <td><label for="dogum">Doğum Tarihi</label></td>
+                <td><input type="date" name="dogum" id="dogum" required></td>
+
+            </tr>
+
+            <tr>
+                <td><label for="Eposta">Eposta</label> </td></label> </td>
+                <td><input type="text" name="Eposta" id="Eposta" placeholder="E-postanızı giriniz..." minlength="11"
+                        maxlength="40" required></td>
+                <td rowspan="2"><label for="adres">Adres</label></td>
+                <td rowspan="2"><textarea name="adres" id="adres" cols="20" rows="4"
+                        placeholder="Adresinizi bu kısma giriniz..." minlength="10" maxlength="50" required></textarea>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td><label for="ksite">Kişisel Site</label></td>
+                <td><input type="text" name="ksite" id="ksite" placeholder="Lutfen sitenizi giriniz..."></td>
+
+
+            </tr>
+
+            <tr>
+                <td><label for="tel">Telefon</label></td>
+                <td><input type="text" name="tel" id="tel" placeholder="Telefonu giriniz..." required></td>
+                <td></td>
+                <td><input type="submit" style="font-size: larger;" value="Kayit Ol" /></td>
+
+            </tr>
+
+
+
+        </table>
+    </form>
+</body>
+
+</html>

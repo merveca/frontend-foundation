@@ -1,0 +1,87 @@
+html{
+    background-color:skyblue;
+}
+
+#bbaslik{
+    text-align: center;
+    font-size: 45px;
+    color:black;
+    
+}
+
+.kbaslik{
+    font-size:35px;
+   
+}
+
+
+.label{
+    font-size: 20px;
+}
+
+.text{
+    width: 200px;
+    height:30px;
+}
+
+.derece{
+    width: 60px;
+    border:black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.soru{
+    border:black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.radio{
+  width: 60px;
+  
+}
+
+#basvur{
+    background-color:lightskyblue;
+    width: 220px;
+    height: 60px;
+    border-style: none;
+    font-size:larger;
+}
+
+#iptal{
+    background-color:tomato;
+    width: 220px;
+    height: 60px;
+    border-style: none;
+    font-size:larger;
+
+}
+#sayfa{
+    width: 1000px;
+    height: 1000px;
+    border-style:none;
+    border-width: 1px;
+    margin: auto;
+    background-color:white;
+}
+
+#içerik{
+    width: 400px;
+    min-height: 820px;
+    border-style: none;
+    border-width: 1px;
+    float:left;
+}
+#yanmenu{  
+    width:600px;
+    min-height: 820px;
+    border-style:none;
+    border-width: 1px;
+    float: left;
+}
+

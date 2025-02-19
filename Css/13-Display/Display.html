@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <link rel="stylesheet" href="Display.css" />
+  </head>
+  <!-- 
+    ! Display 
+    Elementlerin inline ve block özelliklerini değiştirmek için display 
+    stili kullanılır. 
+    Display stili inline, block, inline block ve none değerleri alabilir.
+
+    !!** inline -- 
+    Bir elemanı inline hale getirir. 
+    Böylece sadece ihtiyacı kadar yer kaplar.
+    Width, height, margin top, margin bottom değeri alamazlar.
+
+    !!** block -- 
+    Bir elemanı block hale getirir. 
+    Böylece eleman yeni satırdan başlar ve tüm satırı kaplar.
+    
+    !!** İnline block -- 
+    Hem block hem inline özellikler gösteren bir 
+    element haline gelir. 
+    Sadece ihtiyacı kadar yer kaplarken, width, height, dikey margin gibi 
+    block elementlere mahsus özellikler de alabilir.
+    
+    !!** none -- 
+    Elemanı gizler
+  -->
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Ana Sayfa</a></li>
+        <li><a href="#">Ürünler</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </nav>
+
+    <div style="background-color: rgb(159, 159, 197)">Merhaba</div>
+    <span
+      style="
+        display: inline-block;
+        background-color: rgb(243, 149, 149);
+        width: 200px;
+      "
+      >Deneme</span
+    >
+    <b style="background-color: rgb(137, 255, 137)">Deneme</b>
+  </body>
+</html>
